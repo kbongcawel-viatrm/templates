@@ -34,7 +34,7 @@ cd ai-brand-visibility-template
 npm install
 
 npx wrangler login
-npx wrangler kv namespace create AEO_KV       # Update the ID in wrangler.jsonc
+npx wrangler kv namespace create AEO_KV       # Replace the example ID in wrangler.jsonc
 npx wrangler queues create brand-visibility-jobs
 
 npm run deploy

@@ -15,7 +15,7 @@ A Worker template that tests whether AI models (GPT-5.4, Claude Sonnet 4, Gemini
 ```bash
 npm install
 npx wrangler login
-npx wrangler kv namespace create AEO_KV   # Update ID in wrangler.jsonc
+npx wrangler kv namespace create AEO_KV   # Replace the example ID in wrangler.jsonc
 npx wrangler queues create brand-visibility-jobs
 npm run deploy
 ```
