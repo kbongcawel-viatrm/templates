@@ -32,7 +32,6 @@
 			"label": "Keep React 18 for other templates",
 			"packages": [
 				"durable-chat-template",
-				"multiplayer-globe-template",
 				"remix-starter-template",
 				"to-do-list-kv-template"
 			],
